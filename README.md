@@ -1,6 +1,6 @@
 # 🌍 Explorando Mundo 🌍
 
-Bem-vindo ao Explorando Mundo! Uma plataforma web onde você pode acessar informações sobre diversos países ao redor do mundo. Aqui, você pode acessar informações sobre diversos países de maneira rápida e fácil.
+Bem-vindo(a) ao Explorando Mundo! Uma plataforma web onde você pode acessar informações sobre diversos países ao redor do mundo. Aqui, você pode acessar informações sobre diversos países de maneira rápida e fácil.
 
 ## Objetivo do Projeto
 
