@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="/js/index.js" defer></script>
+  <script src="https://kit.fontawesome.com/92d8068ee3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/responsivo.css">
+  <link rel="icon" href="assets/icone.png" type="image/x-icon">
+  
+  <title>Explorando Mundo</title>
+</head>
+<body>
+
+  <header>
+    <nav>
+        <a class="logo" href="#explorandomundo">
+            Explorando<span class="logo-color">Mund</span><img src="assets/logoicon.png" alt="Ícone do Mundo" class="logo-icon">
+        </a>
+    </nav>
+</header>
+
+
+  <main>
+    <div class="index-wrapper">
+      <div class="container-header">
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass icon"></i>
+          <input type="text" id="search-input" placeholder="Pesquisar por um país...">
+        </div>
+        <div class="filter-region">
+          <select name="select-region" id="select-region">
+            <option value="" id="default-select" selected>Filtrar por Região</option>
+            <option value="Africa">África</option>
+            <option value="Americas">América</option>
+            <option value="Asia">Ásia</option>
+            <option value="Europe">Europa</option>
+            <option value="Oceania">Oceânia</option>
+          </select>
+        </div>
+        <div class="filter-region">
+          <select name="select-subregion" id="select-subregion">
+            <option value="" id="default-select" selected>Filtrar por Sub-região</option>
+            <option value="South America">América do Sul</option>
+            <option value="North America">América do Norte</option>
+            <option value="Caribbean">Caribe</option> 
+            <option value="Eastern Europe">Europa Oriental</option>
+            <option value="Central Asia">Ásia Central</option> 
+            <option value="Western Asia">Ásia Ocidental</option>
+            <option value="Western Europe">Europa Ocidental</option>
+            <option value="Central America">América Central</option>
+            <option value="Northern Europe">Norte da Europa</option>
+            <option value="Southern Europe">Sul da Europa</option>
+            
+            
+          </select>
+        </div>
+        <div class="filter-region">
+          <select name="select-population" id="select-population">
+            <option value="" id="default-select" selected>Filtrar por População</option>
+            <option value="<1M">&lt; 1 Million</option>
+            <option value="1M-10M">1 Million - 10 Million</option>
+            <option value="10M-100M">10 Million - 100 Million</option>
+            <option value=">100M">&gt; 100 Million</option>
+          </select>
+        </div>
+      </div>
+      <div class="container">
+        <footer>
+            <p>2024 - Explorando Mundo. Site criado por <a href="https://github.com/Anacarlamends" target="_blank">Ana Mendes</a></p>
+        
+        </footer>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
