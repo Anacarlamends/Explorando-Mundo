@@ -32,7 +32,7 @@ Para executar o projeto localmente:
 
 ## Deploy do projeto
 
-Acesse agora a versão publicada diretamente neste [link](explorando-mundo.vercel.app).
+Acesse agora a versão publicada diretamente neste [link](https://explorando-mundo.vercel.app/).
 
 ## Contato
 
